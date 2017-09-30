@@ -3,15 +3,11 @@
         "browser": true,
         "commonjs": true
     },
-    "extends": "jquery",
+   "extends": "eslint:recommended",
     "rules": {
         "indent": [
             "error",
             "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
         ],
         "quotes": [
             "error",

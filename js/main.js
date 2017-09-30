@@ -20,7 +20,7 @@ easyB.addEventListener("click", function () {
 		easyB.classList.add("selected");
 		hardB.classList.remove("selected");
 		ultraB.classList.remove("selected");
-		container.innerHTML = '<div class="square"></div><div class="square"></div><div class="square"></div>';
+		container.innerHTML = "<div class='square'></div><div class='square'></div><div class='square'></div>";
 		squares = document.querySelectorAll(".square");
 		numOfColors = 3;
 		setSquares();
@@ -32,7 +32,7 @@ hardB.addEventListener("click", function () {
 		hardB.classList.add("selected");
 		easyB.classList.remove("selected");
 		ultraB.classList.remove("selected");
-		container.innerHTML = '<div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>';
+		container.innerHTML = "<div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div>";
 		squares = document.querySelectorAll(".square");
 		numOfColors = 6;
 		setSquares();
@@ -44,7 +44,7 @@ ultraB.addEventListener("click", function () {
 		ultraB.classList.add("selected");
 		hardB.classList.remove("selected");
 		easyB.classList.remove("selected");
-		container.innerHTML = '<div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>';
+		container.innerHTML = "<div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div><div class='square'></div>";
 		squares = document.querySelectorAll(".square");
 		numOfColors = 9;
 		setSquares();
